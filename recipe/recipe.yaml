@@ -1,5 +1,5 @@
 context:
-  version: "0.1.2"
+  version: "0.3.0"
 
 package:
   name: fsspec-browser
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fsspec-browser/fsspec_browser-${{ version }}.tar.gz
-  sha256: 86ac22c00451035d9e10162e77358b9034ce0c42dd425adb0d48adde42dd0b6a
+  sha256: 45582bf407a89d445b97f5781eaadb7c21a59e5f88230a37e8d8f18a3903b94b
 
 build:
   number: 0
@@ -48,7 +48,7 @@ requirements:
     - pnpm
     - if: is_abi3
       then:
-      - python-abi3
+        - python-abi3
   run:
     - python
     - fsspec

@@ -43,8 +43,9 @@ requirements:
     - python
     - pip
     - hatchling
-    - hatch-js
-    - hatch-rs
+    - hatch-js >=0.1.4
+    - hatch-rs >=0.6.0
+    - fsspec-rs >=0.2.1,<0.3
     - pnpm
     - if: is_abi3
       then:
@@ -52,7 +53,8 @@ requirements:
   run:
     - python
     - fsspec
-    - fsspec-data >=0.2.3
+    - fsspec-data >=0.6.0
+    - fsspec-rs >=0.2.1,<0.3
 
 tests:
   - python:

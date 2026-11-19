@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.5.1"
 
 package:
   name: fsspec-browser
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fsspec-browser/fsspec_browser-${{ version }}.tar.gz
-  sha256: 650bcfb020d708c5b4b1deed7b3f8577a9305b34607cbe93bf971b2d5a807fff
+  sha256: 7e6f948a38936238e48dbf32dacb0f5fd7be1e6e8650f965cf43065ef0632267
 
 build:
   number: 0
